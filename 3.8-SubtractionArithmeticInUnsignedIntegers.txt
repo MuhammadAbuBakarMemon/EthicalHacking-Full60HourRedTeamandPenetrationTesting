@@ -1,0 +1,13 @@
+To accurately represent the -ve result in unsigned arithmetic (subtraction) the computer uses something called a carry flag to recognize and handle such situations. And since we are performing unsigned arithmetic here we can not use negative numbers with unsigned here 
+
+Carry flag gives us the signal whether the subtraction operation has needed a borrowing from beyond the available bits. 
+
+Carry flag set to 1 indicates that the borrowing was necessary, suggesting the calculated result isn't fully accurate because of the bit limitation here
+
+Carry flag reset to 0 indicates that no borrow operation was required in the arithmetic, as the operation did not exceed the bit limitations
+
+Assembly Language (that operates underneath the hood) has specific instructions for addition and subtraction that updates the relevant flags accordingly 
+
+Subtraction Syntax 
+SUB dest s1 s2 
+basically means subtract s2 from s1 and then store the result in the destination, and update the flags accordingly
