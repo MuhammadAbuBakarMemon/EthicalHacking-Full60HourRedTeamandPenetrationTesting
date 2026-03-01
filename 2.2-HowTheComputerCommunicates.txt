@@ -1,0 +1,29 @@
+Python is an interpreted language 
+
+C or C++ on the other hand and compiled languages and they allow us to observe how each of our instructions interact with the underlying hardware 
+
+Now whether a program comes from an interpreter or a compiled file, its instructions and data must always first be loaded into the main memory before the CPU can run them.
+
+READ OPERATION 
+CPU places the address on the address bus signaling the read operation on the control bus, and the system memory responds by placing the required data on the data bus.
+
+WRITE OPERATION 
+In case of a write operation the CPU places the data to write on the data bus and the address where that data is to be written is placed on the address bus.
+
+HID (Human Interface Devices): a cool name for what I've known till now as the Hardware Devices. eg: Keyboard, Mouse etc....
+MID (Machine Interface Devices): network card, storage devices etc.... 
+
+stdio.h is also called the C runtime library 
+
+Linux Mint has a UI pretty similar to  that of Windows thus, it is recommended as the go to option for any beginner.
+
+The MAN command is available for every command in Linux, the Manual Pager Utility, this all is quite handy when developing and one doesn't have knowledge about every command 
+
+Libre Office or the Microsoft Word, word editors insert hidden formatting into our code that might break our code, vim is considered as a better alternative for advanced users. If you prefer a GUI interface then go with VS Code, or an open source alternative can be vscodium 
+
+SUMMARY:
+CPU execute instruction and contains a fast internal memory 
+Memory stores the data and the instructions 
+I/O enables external communication and storage 
+Buses transfer data, addresses and control signals 
+Program Execution is how instructions move through your system 
