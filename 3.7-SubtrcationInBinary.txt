@@ -1,0 +1,28 @@
+The most important part of subtraction is to first determine which is the larger number magnitude wise
+
+If the top number is greater magnitude wise the answer will be negative, and mechanical borrowing without considering that will give you a misleading answer, which would in turn require another layer of arithmetic afterwards
+
+ 67 
+-97 
+
+mechanical borrowing gives us 88 as the answer to this however it should be (-12)
+but we got this 88 because we borrowed an extra 1 from the 100's place in 67, which did not exist so basically we augmented our top numbers magnitude by 100 
+so in the end we had to subtract the answer (88) obtained from 100, to get our actual answer, 12 and then add the negative sign to it
+
+This added arithmetic layer just increases the complexity of arithmetic for us 
+
+AN ALTERNATIVE 
+
+- check for the greater magnitude number and ensure that it is at the top
+- then perform subtraction 
+- if a swap took place in step 1 add a -ve sign to your answer 
+
+The digits alone do not tell the whole story, we must always look at the original problem to understand wether our results should be positive or negative 
+
+In programming signed and unsigned representations help us to enforce this distinction automatically using sign flags and bit encoding 
+
+This is precisely why sign bits and two's plummet/complement exist 
+
+This logic is a bit different but at the heart of how subtraction circuits work. 
+
+Understanding borrowing will also enable us to understand how subtraction creates flags in CPU just like addition does
