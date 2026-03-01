@@ -1,0 +1,3 @@
+Hexadecimals are also used in machine instructions and used to display memory addresses in terminals as it is much easier to read and write 
+
+The rest this lecture taught us Binary addition, I didn't score 96.25/100 in DLD not for no reason 
