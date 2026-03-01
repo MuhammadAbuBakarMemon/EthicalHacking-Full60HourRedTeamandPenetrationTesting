@@ -1,0 +1,19 @@
+Math/Arithmetic is absolutely essential for understanding how computers work at the lowest level, this is the number 1 requirement for low level computing 
+
+In a digital world everything must fit into a certain number of bits, must be squeezed into a limited space
+When storing datatypes the limit is absolute there lies no overflow or extra margin 
+Integer gets 32 bits 
+Character gets 8 bits 
+
+Limitations create complications for arithmetic operations, if we perform a calculation that goes beyond the available space here something has to give, we give up on ACCURACY 
+1- Either we loose data 
+2- Or Data wraps around and forms a different result entirely 
+
+CPU has to make decisions based on a certain number of bits, and to manage this limit it takes use of something that we know as single bit condition flags Status Register/Flag Register 
+
+1- Carry Flags
+used in unsigned arithmetic, tells us a carry out was generated, or the most significant bit has occurred 
+2- Overflow Flag 
+used in signed arithmetic, tells us whether the sign bit is incorrect due  to the operation
+
+in lee-man terms these basically indicate that the result was too big to fit in the allocated number of bits given to us, when something went wrong in a binary operation 
