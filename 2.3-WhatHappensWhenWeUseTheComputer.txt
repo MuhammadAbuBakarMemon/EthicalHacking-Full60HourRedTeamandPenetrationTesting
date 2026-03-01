@@ -1,0 +1,15 @@
+Computers are billions of two-state (binary) switches managed by the CPU. Every operation sour computer performs relies on these billions of switches working together to make some sensible data. 	
+Each unique configuration of switches represents a specific state (e.g: 100010 is a diff state from 010011)
+
+Transistors are these billions of switches present at the core of every computer 
+
+Each activity that we perform on a computer, streaming a video, writing a document, all of this basically boils down to manipulating combinations of 1's and 0's.
+
+Bit (Binary Digit) is the fundamental (most basic level data storage unit) in a computer. A computer group these together to make sensible information, as single bit is too small to represent useable information 
+
+Binary is ideal for electronics as it is simple and stable 
+Electrical Efficiency: (2 voltage levels, 0 volts or 5 volts) will always be easier to distinguish than 10 different levels 
+Error Resistance: binary signals are less likely to be corrupted 
+Simple: circuits are reliable and easier to design 
+
+Hexadecimal is easier to read, has a shorter representation and is used in debugging 
