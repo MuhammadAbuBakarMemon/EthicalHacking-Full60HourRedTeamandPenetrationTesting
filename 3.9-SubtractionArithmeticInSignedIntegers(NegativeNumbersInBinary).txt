@@ -1,0 +1,14 @@
+Sign Magnitude representations lead to errors when performing arithmetic in binary representations 
+Try adding 
+
+-2 and 2 one ends up with -4 However the answer should be 0
+
+The Two's Complement comes here 
+
+In Mathematics the Complement number is a number that one adds to a specific number to reach a specific base or whole 
+eg the complement of 37 in denary/decimal number system is 
+63 because 37 + 63 is 100 
+
+For binary numbers 2's complement is an easier way to represent -ve numbers allowing easy arithmetic operations without the need of any special instructions (like we would have been required to have had we stuck with the sign-magnitude representation)
+
+This representation is used in modern computers due to it's efficiency and it's simplicity in arithmetic circuits make it this standard across nearly all computing devices from smartphones to super computers 
