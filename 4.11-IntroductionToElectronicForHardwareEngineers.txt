@@ -1,0 +1,21 @@
+Transistors act as tiny electronic switches, controlling the flow of electrical signals.
+
+What is Current?
+Current refers to the movement of electrical charge which is measured in units called Coulombs 
+
+Voltage/Potential Difference 
+refers to the difference in electrical energy per unit charge between 2 points in an electrical circuit 
+Voltage in lee-man terms is like the pressure that pushing the electrical current through the circuit 
+
+A computer at its lowest level is made from a combination of different electronic components.
+1- Power Sources: provide the electrical power needed to run the circuits 
+2- Passive Components: these affect current flow and voltage levels, but they can not be controlled or changed by other electronic components e.g resistors and capacitors 
+3- Active Components: these are components that can switch between different status like on off or other configurations under the influence of other electronic signals 
+Transistors are the most important active components 
+4- Conductors: these are materials that connect all the components together (usually wires), and allow electrical signals to flow 
+
+Electronic devices are designed to operate reliably with in a certain range of voltages 
+
+Components inside the computer circuit are regularly switch between voltage levels, (0V and 5V)
+each switch takes a tiny amount of time, and this time limits how fast a circuit can complete operations 
+If we go for faster switching this requires more electrical power this may increase the speed but also this will increase the heat and can damage our components. This time-dependent behavior of electrical components is a critical design consideration for hardware engineers 
