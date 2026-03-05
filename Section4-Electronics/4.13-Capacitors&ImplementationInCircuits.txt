@@ -1,0 +1,11 @@
+A capacitor is a device that stores energy in the form of an electric field created by accumulated electric charge on 2 conductors separated by an insulating material.
+
+WORKING OF A CAPACITOR 
+
+Initially when a capacitor is connected current flows through it like it would through a normal wire.  But as time passes by the plates in the capacitor build up charge. As the charge builds an electrical field forms in etween the plates which makes it harder for more charge/current to flow. To a point when the capacitor is fully charged and the flow of current just stops.
+
+Since it takes time for this electric field to build up capacitors are extremely useful if we want to smoothen out sudden changes in voltage.
+
+In the beginning the capacitor charges quickly as there is a significant voltage difference pushing the current. As the capacitor fills up the voltage difference gets smaller and smaller, and the charging slows down, but not stops. As capacitors are not a 00% efficient. The charging therefore, we can say follows an exponential behavior.
+
+Capacitors charge gradually and resist instant changes. Current starts high and falls to near 0 as the capacitor fills up, when the capacitor consumes all of or nearly all of the voltage as of the source/battery and no voltage is given to the resistor (the capacitor is fully charges). We call this the steady state.
