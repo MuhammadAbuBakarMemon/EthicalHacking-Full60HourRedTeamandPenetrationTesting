@@ -1,0 +1,35 @@
+Resistance impedes the flow of electrical current through the circuit. In simple words it makes it harder for the current to move through a material, as a result electrical energy is not lost but converted into heat. Energy isn't lost to the universe but to the circuit's useful work.
+
+This is precisely why mobile chargers and devices often feel warm during use. 
+
+Capacitance stores energy in an electrical field between 2 conductors. A key characteristic of a capacitor is that voltage across it can not change instantly. Because it takes time to build up an electrical field in a capacitor, the capacitor slows down the change in voltage.
+
+A capacitor primarily limits/reduces the flow of alternating current by providing capacitive resistance, rather than reducing voltage directly like a resistor it provides capacitive resistance.
+
+A resistor reduces voltage by taxing it, (heat) while a capacitor handles it by timing (capacitive reactance)
+
+Inductance stores the energy in a magnetic field when current flows through a magnetic coil/wire. The important thing to note here is that the current can not change instantly. Inductors slow down the change in current because it takes time to build up a magnetic field in an inductor.
+
+Impendence is what we call to term these 2 time dependent behaviors, along with resistance. Impendence simply means resistance to change, whether it is a change in voltage or a change in current.
+
+In a computer circuit this impendence slows down the fast switching of electrical signals, and pure resistance consumes electrical power by turning it into heat.
+
+This lecture mainly focuses on the general timing characteristics of resistance, capacitance, and inductance.
+
+The three devices 
+- Inductor (stores energy in a magnetic field and resists certain current changes)
+- Capacitor (stores energy in an electric field, and resists certain voltage changes)
+- Resistor (limits the current flow and produces heat)
+
+all belong to a broader category, called PASSIVE COMPONENTS, basically which means that these devices can not be actively controlled electronically, they simply consume or store energy without adding any external energy or making decision.
+
+The computer uses transistors instead of manual switches, as they can act as electronic switches that can open or close automatically without any human interaction. 
+by controlling these electronic switches computers can implement these on/off logic, which is a fundamental Building Block in any digital operation inside a computer.
+
+Resistor is used to limit the amount of current that flows in any part of a circuit. 
+by restricting the amount of current that flows in a capacitor or inductor, the resistor can influence how long it takes for such devices to store energy.
+
+The amount of resistance is carefully chosen with the amount of inductance and capacitance to create a specific timing characteristic in a circuit.
+
+Resistors are also used to limit the amount of current that flows through sensitive devices, to ensure the current flowing stays at safe non-destructive levels. As it limits current it transforms the electrical energy into heat. 
+
