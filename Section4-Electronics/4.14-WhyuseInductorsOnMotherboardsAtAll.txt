@@ -22,3 +22,16 @@ Inside the CPU's power delivery system the VRM (Voltage Regulator Module)
 Without them tiny fluctuations in power can cause data corruption, crashes or even hardware damage.
 
 Inductors are critical because they stabilize the current preventing sudden spikes that could disrupt sensitive microprocessors.
+
+Inductance is measured in Henry's or H is represented by the symbol H, indicating how strongly the inductor resists changes in current.
+
+A large change in current results in a large change in the voltage, a slow or no change in current results in little to no voltage change across the inductor. In lee-man terms we can say that the faster we try to change the current the more the inductor will try to resist that change,, the harder the inductor fights back by generating a voltage. And this behavior protects circuits against damaging current surges.
+
+WORKING OF AN INDUCTOR IN A CIRCUIT 
+Initially when current flows through a circuit with an inductor, it acts like an open circuit, taking the full voltage supply to be offered, so no current flows through the resistor here right now. As time passes by the magnetic field builds up and the amount of current gradually increases and the voltage across the resistor (connected further down in the circuit) increases. And finally the resistor voltage gets the full voltage supply overtime and steady current flows.
+
+The change in current through the circuit is exponential, and it slows down as the circuit reaches equilibrium.
+
+Thing to note by full I mean the maximum realistically possible voltage supply, as electronic devices are never a 100% efficient.
+
+Inductors can be used as stabilizers for the current. In real circuits inductors act as guardians by preventing sudden surges, prevent voltage spikes from damaging certain components. Without them modern electronic would be far more vulnerable to instability.
