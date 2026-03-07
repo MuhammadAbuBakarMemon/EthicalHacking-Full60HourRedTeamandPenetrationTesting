@@ -1,0 +1,24 @@
+An inductor is a fundamental passive electronic component that stores energy in a magnetic field. This magnetic field forms whenever a current flows through the coil of wire in an inductor.
+
+Inductors reduces sudden changes in electric current.
+
+HOW DOES AN INDUCTOR WORK?
+Initially an inductor acts like an open wire, barely allowing any current to flow, slowly as the magnetic field is fully established, it acts like a simple piece of wire offering low resistance, allowing almost all of the current to flow, (short wire or a DC in a ready state)
+
+Now this behavior is essential in controlling and smoothing electrical signals, especially in fast switching circuits.
+Real World Usage of Inductors are on your computers motherboard, a donut shaped component wrapped in a copper wire. 
+
+Inductors near a CPU are mainly used in the VRM's (Voltage Regulation Circuit) to smooth current which indirectly stabilizes the voltage that is supplied to the CPU.
+WHAT ACTUALLY HAPPENS UNDERNEATH THE HOOD 
+Inside the CPU's power delivery system the VRM (Voltage Regulator Module) 
+1- Power from the PSU (12V) is converted into a very low voltage (1V) needed by the CPU.
+2- The VRM uses MOSFET's, capacitors, and inductors.
+3- The Inductor (also called a choke):
+	- Stores energy in a magnetic field 
+	- Smooths the current coming from the switching circuit.
+	- Reduces current ripple and sudden spikes.
+
+
+Without them tiny fluctuations in power can cause data corruption, crashes or even hardware damage.
+
+Inductors are critical because they stabilize the current preventing sudden spikes that could disrupt sensitive microprocessors.
