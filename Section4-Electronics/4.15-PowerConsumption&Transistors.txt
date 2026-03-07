@@ -1,0 +1,53 @@
+In Hardware devices or embedded systems one of the biggest concerns in power efficiency. Because is a device is powered by a battery it needs to use as little energy as possible to last longer, stay cooler and work reliably without failure. 
+
+In circuits basically 
+Heat = Inefficiency 
+
+Heat generation in a circuit is not random, but or follows the behavior of 3 key electromagnetic properties
+- Resistance
+- Capacitance 
+- Inductance 
+
+Energy is the ability to do work, measured in Joules. 
+Power is the rate at which energy is consumed or transformed, measured in Watts. 
+
+Energy is how much work you can do then power is how fast one can do that work.
+
+How a battery labelling works
+240 Watt Hour battery means that the battery can deliver 240 Watts continuously for 1 Hour. 
+This 240 Watt Hour is also sufficient to power a 480 watt device for 30 minutes.
+
+Taking a look at how each of the passive components behaves with respect to energy use:
+Capacitors and Inductors store energy but Resistors convert that energy into heat (that in a circuit we also call that in-efficiency)
+
+Capacitors have a small internal resistance called ESR (Equivalent Series Resistance)
+Resistors have a bit of Inductance due to their Physical Structure.
+Inductors have some unintended capacitance.
+
+And high frequencies like those used in a wireless communication or modern processors the secondary effect becomes important here because CPU's are soo fast nowadays when designing circuits we have to take these secondary effects into account to make sure that everything works correctly, efficiently, and stays cool.
+
+INTRODUCING TRASNSISTORS
+(THE HERO OF MODERN ELECTRONICS)
+They are active components meaning that they can control the flow of current electronically.
+
+WHY ARE TRANSISTORS USEFUL???
+They can act as switches that turn on and off rapidly.
+They can acts as amplifiers that boost signals.
+Building blocks of all modern electronic devices in today's world, without them we would not have any computers, smartphones, digital technology.
+
+Before Transistors early computers used mechanical switches to build logic circuits.
+Mechanical systems (switches) had a drawback they were slow, wore out over time, and were large and bulky.
+
+Then came transistors that switched on or off in a billionth of a second and were soo small that millions of them could fit on a single CPU or chip, on top of that they use extremely low amounts of power.
+
+Allowed digital logics to be implemented faster, smaller and more efficiently. 	 
+
+Our computer can have 
+5V/3.3V/1.8V to represent 1 and 0V to represent 0V in modern transistors 
+which of the three are used for 1 we can check in our PC's BIOS.
+
+Transistor switch between these levels electronically to perform all calculations and data processing that make our digital devices work.
+
+Two Types of Transistors
+- MOSFETS (Metal Oxide Semiconductor Field Effect Transistors)
+- CMOS (Complementary Metal Oxide Semiconductor)
