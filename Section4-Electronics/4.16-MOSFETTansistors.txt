@@ -1,0 +1,125 @@
+The most commonly used transistor in modern computer logic circuitry is the MOSFET (Metal Oxide Semiconductor Field Effect Transistor).
+
+It also has different types available, from which the most commonly used for switching purposes is the enhancement mode MOSFET.
+
+They are made from Silicon a material knows as a semiconductor. A semiconductor allows electricity to pass through but not as easily as metals. An to enhance  its conductivity Silicon is doped (intentionally impurities are introduced), and depending on the type of impurity the silicon's will favor the movements of either electrons or holes. 
+
+Q) WHY DO WE USE SEMI-CONDUCTORS INSTEAD OF METALS???
+A) Because 
+1- Metals always conduct, can not control the flow of electricity, while semi-conductors can control the flow of electricity
+(this control element is essential for building transistors which are the basic switching elements of a CPU)
+- Ability to act as a switch 
+(metals always conduct can not act as logic switches)
+2- Doping Control 
+semi-conductors allow doping (adding small impurities) to change electrical properties
+EXAMPLE:
+	- Adding Phosphorus -> N Type semi-conductor 
+	- Adding Boron -> P Type semi-conductor 
+combining these from PN Junctions that are used to build transistors like the MOSFETS used in CPU's
+3- Ability to build logic circuits
+using these semi-conductor transistors engineers make AND OR NOT gates that from digital circuits, that implement instructions of the processors like those from INTEL or AMD
+4- Power Efficiency 
+semi-conductors allow very low leakage of current when turned off, which means both 
+	- less power consumption 
+	- less heat generation 
+
+Electrons are -ve charged 
+Holes are effectively the absence of electrons behaving like +ve charged particles 
+
+N Type VS P Type 
+When a semi-conductor conducts primarily based on electrons it is called N type 
+When a semi-conductor conducts primarily through holes it is called P type
+
+Channel in a MOSFET is the region through which the current flows, this channel is situated between 2 terminals 
+The source terminal and the drain terminal, and the 3rd terminal called gate (which controls whether or not current can flow through this channel)
+This gate is made from the opposite type of semi conductor and is separated by a thin insulating layer
+
+Gate = INPUT 
+Drain = OUTPUT
+
+For an N Type MOSFET 
+the source is connected to the ground by 0V and the drain is connected to 5V via a resistor 
+
+For a P Type MOSFET 
+the source is connected to a 5V supply and the drain is connected to a 0V supply via the resistor 
+
+The Voltage difference between the gate and the source determines whether the MOSFET is on or off, both N and P channel MOSFETS work in complementary ways, so when used together the can create faster and more efficient digital switches 
+
+For an N Channel MOSFET (operates in opposite manner i.e input is the opposite of the output)
+
+when the gate = 5V (relative to the source [which is 0V] the voltage input is high)
+the MOSFET is on 
+(because 0V and 5V create a potential difference)
+the channel becomes conductive and acts like a closed switch 
+the drain voltage drops to near 0V 
+as the current must pass through the resistor here which consumes power by converting electrical signals into heat, and this leads to unnecessary power loss
+
+when the gate voltage = 0V
+the MOSFET is off 
+the channel acts like an open wire no current flows and MOSFET behaves like an open switch
+the resistor acts like a pull up resistor 
+and the drain voltage becomes 5V
+
+IN THE CASE FOR AN N TYPE MOSFET 
+GATE ON = 0V THROUGH THE DRAIN
+GATE OFF = 5V THROUGH THE DRAIN 
+
+For an P Channel MOSFET (operates in opposite manner i.e input is the opposite of the output)
+
+when the gate voltage = 5V
+(equal to the source for a P Type the source is 5V)
+the MOSFET is off 
+the channel acts like an open switch, no current flows through the resistor 
+the resistor acts as a pull down device 
+ensuring the drain = 0V 
+when the MOSFET is off
+
+when the gate voltage = 0V
+(lower than the source/different than the source creating a potential difference)
+the MOSFET is on
+the channel becomes conductive
+the MOSFET acts like a closed switch, the current flows from the source to the drain
+and the Voltage at the drain = 5V 
+in 
+(since in a P Type MOSFET the drain is connected to ground 0V via a resistor)
+
+IN THE CASE FOR AN P TYPE MOSFET 
+GATE ON = 0V THROUGH THE DRAIN
+GATE OFF = 5V THROUGH THE DRAIN 
+
+MOSFET acts like controllable switches 
+N Channel turns on when the gate is at a higher voltage than the source (0V)
+P Channel turns on when the gate is at a lower voltage than the source (5V)
+
+using both types together enables faster switching, and better power efficiency, especially in complementary MOS or CMOS logic design
+
+Although the pull-up and pull-down resistors help set proper voltages at the drains they cause 2 major problems 
+
+1- Wastage of current as heat
+when the MOSFTE is on, the current flows through the resistor in this case and as well all know resistors are not efficient, and lead to the wastage of current as heat 
+
+And even though MOSFET gate draws almost no current in a steady state, it still takes a burst of current in order to change it's state, and this current typically comes from the drain of a previous MOSFET, which again the current that comes from the drain of the previous MOSFET is limited by the resistor in it's path
+
+2- And if the resistor power is high to reduce the amount of current that flows, but then the switching becomes slower 
+CREATING A TRADE OFF 
+If we use SAMLLER RESISTORS this will allow faster switching, but will consume more power
+If we use a LARGER RESISTOR this will reduce the power consumption but will slow down the switching 
+
+basically in a high speed computer logic finding the right balance between speed and energy is critical 
+AND IT WAS THIS DILEMMA THAT LED TO THE DEVELOPMENT OF RESISTIR LESS LOGIC FAMILIES LIKE CMOS (where pair of MOSFETS are used together to eliminate the need to use PULL UP and PULL DOWN resistors entirely)
+
+Q) NOW WHAT IN THE WORLD ARE A PULL UP AND PULL DOWN RESISTORS?
+A) 
+THE PROBLEM 
+In digital logic, logic pins need to be in a deterministic state (0 or 1). If a pin isn't connected to anything (like a button that isn't pressed) then that pin is in a floating state where electric noise can cause it to randomly flip between 1 and 0 
+
+THE NEED/SOLUTION 
+PULL UP resistors solve this problem by pulling up the pin to a known voltage when no other signal is present
+
+PULL UP RESISTOR (connects input pin to the supply Vcc voltage)
+Default State: when there is no signal the button is open, resistor pulls the pin to Vcc
+Active state: when the button in pressed, resistor connects the pin directly to the GND ground. The current takes the path of least resistance to GND
+
+PULL DOWN RESISTOR (connects the input pin to the GND)
+Default State: when the button is open the resistor pulls down the pin to GND.
+Active state: when the button is pressed the resistor connects the pin directly to the Vcc, and the voltage in the pin rises to the supply level 
