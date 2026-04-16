@@ -1,0 +1,19 @@
+CMOS (Complementary Metal oxide Semi Conductor) Switch 
+this design principle lies at the heart of almost every modern day logic circuit from PC's CPU to the microcontrollers in a smart watch
+
+DESIGN 
+we have 2 
+1)PMOS (P channel MOSFET) - conducts when the input is low - attached to the top part of the CMOS design - source connected to logic high/binary one 
+2)NMOS (N channel MOSFET) - conducts when the input in high - attached to the bottom part of the CMOS design - source connected to logic low/binary zero
+connected together both of these are paired together, 
+both the PMOS and NMOS's gate terminals are tied together and used as the input to the CMOS Inverter 
+both of the drain terminals are tied together and used as the output to the inverter to the CMOS Inverter 
+
+This symmetrical design is what allows 1 transistor to be on whilst the other is off 
+THIS MUTUAL EXCLUSIVITY OS WHAT MAKES THE CMOS SO POWER EFFICIENT AND RESPONSIVE 
+
+-gates act as inputs to our transistor 
+-drain acts as an output to our transistor 
+
+-Input of 5V to the Gate -> NMOS active -> 0V on the Drain Output 
+-Input of 0V to the Gate -> PMOS active -> 5V on the Drain Output 
