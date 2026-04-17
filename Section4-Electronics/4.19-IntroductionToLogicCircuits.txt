@@ -1,0 +1,34 @@
+Computers are constructed from carefully organized groups of logic gates called logic circuits.
+
+This allows the computer to process digital information, as they form the base of the CPU, memory units and other devices.
+
+Logic Circuits are of 2 types 
+-Combinational Logic Circuit 
+-Sequential Logic Circuit
+
+COMBINATIONAL:
+they operate on only the current input provided to them, at the specific moment
+no memory or dependency on what happened before, hence the system forgets any previous inputs 
+EXAMPLE:
+TV remote control ->press channel number 5 -> it changes channel to it no past memory required/utilized (regardless of the channel on is on the switch happens independently of that information)
+
+SEQUENTIAL:
+the output depends on both the current input and the past inputs, circuit has some form of memory to remember the previous states
+EXAMPLE:
+TV remote control -> press the channel up or down button the TV needs to know the current channel to decide which channel to switch to 
+
+ACTIVE HIGH SIGNAL 
+HIGH Voltage - 1 - 5V/3.33V
+LOW Voltage - 0 - 0V
+
+ACTIVE LOW SIGNAL 
+LOW Voltage - 1 - 5/3.33V
+HIGH Voltage - 0 - 0V
+
+In real design work or datasheets we will always encounter these voltage levels, hence knowing them helps you communicate with hardware engineers and read technical documents 
+
+
+
+
+
+ 
