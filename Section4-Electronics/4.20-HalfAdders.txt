@@ -1,0 +1,32 @@
+In digital circuits we can perform binary addition using various building blocks, one of those is the half adders 
+
+X(i)	Y(i)	Carry(i+1)	Sum(i)
+0	0	0		0
+0	1	0		1
+1	0	0		1
+1	1	1		0
+
+By analyzing this we can observe that the 
+SUM -> result of -> XOR Operation in between X(i) and Y(i)
+CARRY -> result of -> AND Operation in between X(i) and Y(i)
+
+This design is functional and yields accurate results it has a few limitations 
+It does not take into account a carry bit from our previous lower bit position 
+and this is where a full adder comes into play
+
+It extends the concept of the half adder by introducing a third input that takes into account a carry from the lower bit position 
+
+carry(i)	A(i)	B(i)	carry(i+1)	Sum(i)
+0		0	0	0		0
+0		0	1	0		1
+0		1	0	0		1
+0		1	1	1		0
+1		0	0	0		1
+1		0	1	1		0
+1		1	0	1		0
+1		1	1	1		1
+
+Final Equation 
+Sum(i) = Carry(i) XOR A(i) XOR B(i)
+
+
